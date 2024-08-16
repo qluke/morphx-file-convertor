@@ -3,10 +3,8 @@ import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import Header from "@/components/Navigation/Header";
-import Footer from "@/components/Navigation/Footer";
-
+ 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500", "600"],
@@ -15,14 +13,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MorphX - Free Unlimited File Converter",
-  description: `Unleash your creativity with MorphX – the ultimate online tool for
-  unlimited and free multimedia conversion. Transform images, audio, and
-  videos effortlessly, without restrictions. Start converting now and
-  elevate your content like never before!`,
-  creator: "Anchit Sinha",
-  keywords:
-    "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",
+  title: "File Converter",
+  description: `A versatile file converter that supports converting images, videos, and audio files to various formats. Easy to use, fast, and reliable for all your media conversion needs.`,
+  keywords: "image converter, video converter, audio converter, file conversion, media converter, format converter",
 };
 
 export default function RootLayout({
@@ -36,14 +29,14 @@ export default function RootLayout({
         className={cn(
           inter.variable,
           ibmPlexMono.variable,
-          "bg-[#05020d] h-screen overflow-x-hidden"
+          "bg-gradient-to-b from-blue-900 via-teal-800 to-green-700 h-screen overflow-x-hidden"
         )}
       >
         <Header />
         <Toaster />
         <main>{children}</main>
-        <Footer />
       </body>
     </html>
   );
 }
+

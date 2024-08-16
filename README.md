@@ -1,18 +1,10 @@
-  <img alt="MorphX - Unlimited File Conversions" src="/public/Img1.png">
-    <h1 align="center">MorphX - Unlimited File Conversions</h1>
+  <img alt="MorphX - Unlimited File Conversions" src="/public/img1.png">
+    <h1 align="center">Unlimited File Conversions</h1>
 
 <p align="center">
   Secure and private bulk file conversion app
 </p>
 
-<p align="center">
-  <a href="https://twitter.com/anchit1909" target="_blank">
-    <img src="https://img.shields.io/twitter/follow/anchit1909?style=flat&label=anchit1909&logo=twitter&color=0bf&logoColor=fff" alt="Anchit Sinha Twitter follower count" />
-  </a>
-  <a href="https://github.com/Anchit1909/morphx-file-convertor" target="_blank">
-    <img src="https://img.shields.io/github/stars/Anchit1909/morphx-file-convertor?label=Anchit1909%2FMorphX" alt="MorphX repo star count" />
-  </a>
-</p>
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
@@ -49,15 +41,15 @@ MorphX is an open source online file conversion platform. It can be used to conv
 
 ### Home Page
 
-<img alt="Home Page" src="/public/Img1.png">
+<img alt="Home Page" src="/public/img1.png">
 
 ### File Conversion Page
 
-<img alt="File Conversion Page" src="/public/Img3.png">
+<img alt="File Conversion Page" src="/public/img2.png">
 
 ### Download Page
 
-<img alt="Download Page" src="/public/Img4.png">
+<img alt="Download Page" src="/public/img3.png">
 
 ## Running Locally
 
@@ -83,4 +75,4 @@ npm run dev
 
 ## Author
 
-- Anchit Sinha ([@anchit1909](https://twitter.com/anchit1909))
+- Anchit Sinha
