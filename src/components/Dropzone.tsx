@@ -239,7 +239,7 @@ export default function Dropzone() {
               <Skeleton className="-ml-4 md:-ml-10 h-full w-full cursor-progress absolute rounded-xl bg-white/10" />
             )}
             <div className="flex gap-4 items-center justify-between">
-              <span className="text-2xl text-orange-600">
+              <span className="text-2xl text-blue-600">
                 {fileToIcon(action.file_type)}
               </span>
               <div className="flex items-center gap-1">
@@ -292,7 +292,7 @@ export default function Dropzone() {
                       className="placeholder:text-gray-300"
                     />
                   </SelectTrigger>
-                  <SelectContent className="h-fit bg-[#271738] text-gray-300 font-medium">
+                  <SelectContent className="h-fit bg-[#1a1a1a] text-gray-300 font-medium">
                     {action.file_type.includes("image") && (
                       <div className="grid grid-cols-2 gap-2 w-fit">
                         {extensions.image.map((elt, i) => (
@@ -376,7 +376,7 @@ export default function Dropzone() {
           {is_done ? (
             <div className="space-y-4 w-fit">
               <div className="relative">
-                <div className="bg-gradient-to-tr from-purple-900 via-violet-500 to-orange-600 blur-lg absolute inset-0 pointer-events-none" />
+                <div className="bg-gradient-to-tr blur-lg absolute inset-0 pointer-events-none" />
                 <Button
                   size="lg"
                   className="bg-white/90 text-black hover:bg-slate-100 p-3 px-8 relative z-10 font-inter font-medium flex gap-2 items-center w-full rounded-xl"
@@ -400,7 +400,7 @@ export default function Dropzone() {
               {!is_ready || is_converting ? (
                 <div className="hidden" />
               ) : (
-                <div className="bg-gradient-to-tr from-purple-900 via-violet-500 to-orange-600 blur-lg absolute inset-0 pointer-events-none" />
+                <div className="bg-gradient-to-tr blur-lg absolute inset-0 pointer-events-none" />
               )}
               <Button
                 size="lg"
