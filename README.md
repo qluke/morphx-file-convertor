@@ -1,4 +1,4 @@
-  <img alt="MorphX - Unlimited File Conversions" src="/public/img1.png">
+  <img alt="MorphX - Unlimited File Conversions" src="/public/image1.png>
     <h1 align="center">Unlimited File Conversions</h1>
 
 <p align="center">
@@ -41,15 +41,15 @@ MorphX is an open source online file conversion platform. It can be used to conv
 
 ### Home Page
 
-<img alt="Home Page" src="/public/img1.png">
+<img alt="Home Page" src="/public/image1.png">
 
 ### File Conversion Page
 
-<img alt="File Conversion Page" src="/public/img2.png">
+<img alt="File Conversion Page" src="/public/image2.png">
 
 ### Download Page
 
-<img alt="Download Page" src="/public/img3.png">
+<img alt="Download Page" src="/public/image3.png">
 
 ## Running Locally
 
